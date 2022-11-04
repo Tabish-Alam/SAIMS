@@ -49,15 +49,18 @@ void main() {
     },
   ];
   for (var i = 0; i < marks.length; i++) {
-    print("----------------------------Marksheet---------------------------");
-    print("Student name is ${marks[i]['name']}");
-    print("Student roll number is ${marks[i]['roll no']}");
-    print("Student marks in urdu is ${marks[i]['subject']['urdu']}");
-    print("Student marks in english is ${marks[i]['subject']['eng']}");
-    print("Student marks in science is ${marks[i]['subject']['sci']}");
-    print(
-        "Student's total marks is ${marks[i]['subject']['sci'] + marks[i]['subject']['eng'] + marks[i]['subject']['urdu']}");
-    print(
-        "Student's percentage is ${marks[i]['subject']['sci'] + marks[i]['subject']['eng'] + marks[i]['subject']['urdu'] * 100 / 150}%");
+    for (var k = 0; k < 1; k++) {
+      print("The name of the student is ${marks[i]['name']}");
+    }
+    // print("----------------------------Marksheet---------------------------");
+    // print("Student name is ${marks[i]['name']}");
+    // print("Student roll number is ${marks[i]['roll no']}");
+    // print("Student marks in urdu is ${marks[i]['subject']['urdu']}");
+    // print("Student marks in english is ${marks[i]['subject']['eng']}");
+    // print("Student marks in science is ${marks[i]['subject']['sci']}");
+    // print(
+    //     "Student's total marks is ${marks[i]['subject']['sci'] + marks[i]['subject']['eng'] + marks[i]['subject']['urdu']}");
+    // print(
+    //     "Student's percentage is ${marks[i]['subject']['sci'] + marks[i]['subject']['eng'] + marks[i]['subject']['urdu'] * 100 / 150}%");
   }
 }
