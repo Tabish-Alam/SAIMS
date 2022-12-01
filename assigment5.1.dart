@@ -37,48 +37,46 @@ void main() {
 
   // Q5
 
-  // var signup = false;
-  // var isloggedin = false;
-  // var new_email;
-  // var new_password;
-  // var limit = 0;
-  // if (signup == false) {
-  //   print("please create your account first");
-  //   print("Name");
-  //   var name = stdin.readLineSync();
-  //   print("Contact no");
-  //   var contact_no = int.parse(stdin.readLineSync()!);
-  //   print("Email");
-  //   new_email = stdin.readLineSync();
-  //   // var user_id = new_email;
-  //   print("Password");
-  //   new_password = stdin.readLineSync();
-  //   signup = true;
-  //   print("Your account is created successfully!");
-  // }
-  // //  else if (signup = true) {
-  // //   var email = stdin.readLineSync();
-  // //   var password = stdin.readLineSync();
-  // // }
-  // // else {
-  // //   print("please create your account first");
-  // // }
+//   var signup = false;
+//   var isloggedin = false;
+//   var new_email;
+//   var new_password;
+//   var limit = 0;
+//   if (signup == false) {
+//     print("please create your account first");
+//     print("Name");
+//     var name = stdin.readLineSync();
+//     print("Contact no");
+//     var contact_no = int.parse(stdin.readLineSync()!);
+//     print("Email");
+//     new_email = stdin.readLineSync();
+//     // var user_id = new_email;
+//     print("Password");
+//     new_password = stdin.readLineSync();
+//     signup = true;
+//     print("Your account is created successfully!");
+//   } else if (signup = true) {
+//     var email = stdin.readLineSync();
+//     var password = stdin.readLineSync();
+//   } else {
+//     print("please create your account first");
+//   }
 
-  // while (isloggedin == false && signup == true && limit <= 4) {
-  //   print("Enter your Email:");
-  //   var email = stdin.readLineSync();
-  //   print("Enter your Password:");
-  //   var password = stdin.readLineSync();
-  //   if (email == new_email && password == new_password) {
-  //     isloggedin = true;
-  //     print("Login Successful");
-  //   } else {
-  //     print("Worng Password");
-  //     limit++;
-  //   }
-  // }
-  // print("Enter the number to print table");
-  // table();
+//   while (isloggedin == false && signup == true && limit <= 4) {
+//     print("Enter your Email:");
+//     var email = stdin.readLineSync();
+//     print("Enter your Password:");
+//     var password = stdin.readLineSync();
+//     if (email == new_email && password == new_password) {
+//       isloggedin = true;
+//       print("Login Successful");
+//     } else {
+//       print("Worng Password");
+//       limit++;
+//     }
+//   }
+//   print("Enter the number to print table");
+//   table();
 }
 
 // Q4

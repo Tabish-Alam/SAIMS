@@ -40,10 +40,10 @@ void main() {
 //   marksheet(name : "Ali",59, 90, 23, 70, 41, sec: "A");
 }
 
-//  marksheet({required name, sub1, sub2, sub3, sub4, sub5, sec: "C"}) {
-//   var obt = sub1 + sub2 + sub3 + sub4 + sub5;
-//   var total = 500;
-//   var per = (obt / total) * 100;
-//   // print("$sec : $per");
-//   return {"Section": sec, "Percentage": per};
-// }
+marksheet({required name, sub1, sub2, sub3, sub4, sub5, sec: "C"}) {
+  var obt = sub1 + sub2 + sub3 + sub4 + sub5;
+  var total = 500;
+  var per = (obt / total) * 100;
+  // print("$sec : $per");
+  return {"Section": sec, "Percentage": per};
+}
